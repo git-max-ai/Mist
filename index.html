@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mist</title>
+    <link rel="stylesheet" href="css\mist.css">
+    <script src="js/mist.js"></script>
+  </head>
+  <body>
+<!--- header --->
+    <div class="header">
+      <div class="h-content">
+          <nav class="h-nav">
+            <div class="navlogo">
+              <a href="index.html">
+                <img src="img\Mist 400x200.png" alt="Mist Logo" width = 200px  height = 100px >
+              </a>
+            </div>
+
+            <ul class="navlinks">
+              <li>
+                <a href="#">STORE</a>
+              </li>
+              <li>
+                <a href="#">COMMUNITY</a>
+                </li>
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li>
+                <a href="#">SUPPORT</a>
+              </li>
+            </ul>
+
+            <div class="navsearch">
+              <input class = header-searchtype="text" placeholder="">
+              <a href="#"><div class="searchbutton">SEARCH
+              </div></a>
+            </div>
+          </nav>
+
+          <a href="signin.html"><div class="navlogin">login</div></a>
+      </div>
+    </div>
+
+<!--- MainBanner --->
+    <div class="mainbanner">
+      <a href="storepagebattlefield.html"><img src="img\MainBanner.png" alt="battlefield" width= 100% height= 450px></a>
+    </div>
+
+<!--- topbody --->
+    <div class="topbody">
+      <div class="t-wrapper">
+        FEATURED & RECOMMENDED
+        <!--Top slide using javascript-->
+        <div class="slideshow-container">
+        <div class="t-slidecontainer">
+          <button class="slide-button left" id="left" onclick="plusSlides(-1)"><</button>
+          <div class="t-slide-carousel">
+            <a href="storepagedarksouls3.html" class="aslide">
+              <div class="t-slide">
+                  <div class="ts-image">
+                    <img src="img\top\ts-1.jpg"  alt="Dark Souls">
+                  </div>
+                  <div class="ts-content">
+                    <div class="ts-title">DARK SOULS™ III</div>
+                    <div class="ts-desc">
+                      Dark Souls continues to push the boundaries with the latest, ambitious
+                      chapter in the critically-acclaimed and genre-defining series. Prepare
+                      yourself and Embrace The Darkness!
+                    </div>
+                    <div class="ts-body">
+                      NOW AVAILABLE
+                      <div class="ts-price">
+                        <div class="ts-discount">-75%</div>
+                        <div class="ts-cost"><s>₹4,299</s> ₹1,074</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </a>
+
+            <a href="storepagebattlefield.html" class="aslide">
+              <div class="t-slide">
+                  <div class="ts-image">
+                    <img src="img\top\ts-2.jpg" height=auto width = 100% alt="BattleField">
+                  </div>
+                  <div class="ts-content">
+                    <div class="ts-title">Battlefield™ 2042</div>
+                    <div class="ts-desc">
+                      Battlefield™ 2042 is a first-person shooter that marks the return to the iconic
+                      all-out warfare of the franchise. In a near-future world transformed by disorder,
+                      adapt and overcome dynamically- changing battlegrounds with the help of your squad
+                      and a cutting-edge arsenal.
+                    </div>
+                    <div class="ts-body">
+                      NOW AVAILABLE
+                      <div class="ts-price">
+                        <div class="ts-cost">₹3,499</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </a>
+
+            <a href="storepagenomanssky.html" class="aslide">
+              <div class="t-slide">
+                  <div class="ts-image">
+                    <img src="img\top\ts-3.jpg"  alt="No Man's Sky">
+                  </div>
+                  <div class="ts-content">
+                    <div class="ts-title">No Man's Sky</div>
+                    <div class="ts-desc">
+                      No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.
+                    </div>
+                    <div class="ts-body">
+                      NOW AVAILABLE
+                      <div class="ts-price">
+                        <div class="ts-discount">-50%</div>
+                        <div class="ts-cost"><s>₹1,799</s> ₹899</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </a>
+          </div>
+          <button class="slide-button right" id="right" onclick="plusSlides(1)">></button>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!--End of top slide-->
+        <br><br>
+        SPECIAL OFFERS
+        <div class="b-slide-container">
+          <button class="slide-button left" id="left"><</button>
+          <div class="b-slide">
+            <div class="bs-type1">
+                <img src="img\top\tb-1.jpg"  alt="Ark: Survival Evolved" width= 100%>
+                <div class="bs-body1">
+                WEEKLY SALE
+                <br><br>
+                  <div class="bs-price">
+                    <div class="bs-discount">-80%</div>
+                    <div class="bs-cost"><s>₹1,099</s> ₹219</div>
+                  </div>
+                </div>
+            </div>
+            <div class="bs-type1">
+                <img src="img\top\tb-2.jpg"  alt="Dying Light" width= 100%>
+                <div class="bs-body1">
+                WEEKLY SALE
+                <br><br>
+                  <div class="bs-price">
+                    <div class="bs-discount">-66%</div>
+                    <div class="bs-cost"><s>₹1,000</s> ₹340</div>
+                  </div>
+                </div>
+            </div>
+            <div class="bs-type2">
+              <a href="storepagenomanssky.html">
+                <img src="img\top\tb-3.jpg"  alt="No Man's Sky" width= 100%>
+                <div class="bs-body2">
+                  TODAY'S DEAL
+                  <div class="bs-price">
+                    <div class="bs-discount">-50%</div>
+                    <div class="bs-cost"><s>₹1,799</s> ₹899</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bs-type2">
+                <img src="img\top\tb-4.jpg"  alt="Ghostrunner" width= 100%>
+              <div class="bs-body2">
+              TODAY'S DEAL
+              <div class="bs-price">
+                <div class="bs-discount">-50%</div>
+                <div class="bs-cost"><s>₹2,099</s> ₹1049</div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <button class="slide-button right" id="right">></button>
+        </div>
+        <br>
+      </div>
+    </div>
+    </div>
+
+<!--- botbody --->
+    <div class="botbody">
+      <div class="b-barcontainer">
+        <div class="b-bar">
+          <div class="b-barcontent">New and Trending</div>
+          <div class="b-barcontent">Top Sellers</div>
+          <div class="b-barcontent">Popular Upcoming</div>
+          <div class="b-barcontent">Specials</div>
+        </div>
+      </div>
+      <div class="b-wrapper">
+        <div class="b-left">
+          <div class="l-list" onmouseover="currentDiv(1)">
+            <div class="l-image"><img src="img\list\li-1.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Mass Effect™ Legendary Edition</div>
+              <div class="l-cost"><s></s> ₹3,999</div>
+            </div>
+          </div>
+
+          <a href="storepagedarksouls3.html">
+            <div class="l-list" onmouseover="currentDiv(2)">
+              <div class="l-image"><img src="img\list\li-2.jpg" alt="image not found"></div>
+              <div class="l-content">
+                <div class="l-name">DARK SOULS™ III</div>
+                <div class="l-price">
+                  <div class="l-discount">-75%</div>
+                  <div class="l-cost"><s>₹4,299</s><br>₹1,024</div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <div class="l-list" onmouseover="currentDiv(3)">
+            <div class="l-image"><img src="img\list\li-3.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Destiny 2: Beyond Light Deluxe Edition</div>
+              <div class="l-price">
+                <div class="l-discount">-33%</div>
+                <div class="l-cost">&nbsp &nbsp<s>₹1,499</s><br>₹1,004</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-4.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Battlefield V</div>
+              <div class="l-price">
+                <div class="l-discount">-67%</div>
+                <div class="l-cost"><s>₹3,999</s><br>₹1,319</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-5.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">The Henry Stickmin Collection</div>
+              <div class="l-price">
+                <div class="l-discount">-40%</div>
+                <div class="l-cost">&nbsp &nbsp<s>₹459</s><br>₹275</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-6.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Need for Speed™ Heat</div>
+              <div class="l-price">
+                <div class="l-discount">-75%</div>
+                <div class="l-cost"><s>₹4,499</s><br>₹1,124</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-7.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Borderlands 3</div>
+              <div class="l-price">
+                <div class="l-discount">-67%</div>
+                <div class="l-cost"><s>₹2,990</s><br>₹986</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-8.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Total War: WARHAMMER II</div>
+              <div class="l-price">
+                <div class="l-discount">-66%</div>
+                <div class="l-cost"><s>₹2,699</s><br>₹917</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-9.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">ARK: Survival Evolved</div>
+              <div class="l-price">
+                <div class="l-discount">-80%</div>
+                <div class="l-cost"><s>₹1,099</s><br>₹219</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l-list" onmouseover="currentDiv()">
+            <div class="l-image"><img src="img\list\li-10.jpg" alt="image not found"></div>
+            <div class="l-content">
+              <div class="l-name">Grand Theft Auto V: Premium Edition</div>
+              <div class="l-price">
+                <div class="l-cost">₹976</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="b-right-container">
+          <div class="b-right" id="right">
+            <div class="r-title">
+              Mass Effect™ Legendary Edition
+            </div>
+            <div class="r-tagscontainer">
+              <div class="r-tag">RPG</div>
+              <div class="r-tag">Story Rich</div>
+              <div class="r-tag">Action</div>
+              <div class="r-tag">Sci-fi</div>
+              <div class="r-tag">Classic</div>
+
+            </div>
+            <div class="r-imagescontainer">
+              <div class="r-image"><img src="img\bl1\1.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl1\2.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl1\3.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl1\4.jpg" alt="" width = 100%></div>
+            </div>
+          </div>
+
+          <div class="b-right" id="right">
+            <div class="r-title">
+              DARK SOULS™ III
+            </div>
+            <div class="r-tagscontainer">
+              <div class="r-tag">Souls-like</div>
+              <div class="r-tag">Dark Fantasy</div>
+              <div class="r-tag">Difficult</div>
+              <div class="r-tag">RPG</div>
+            </div>
+            <div class="r-imagescontainer">
+              <div class="r-image"><img src="img\bl2\1.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl2\2.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl2\3.jpg" alt="" width = 100%></div>
+              <div class="r-image"><img src="img\bl2\4.jpg" alt="" width = 100%></div>
+            </div>
+         </div>
+
+         <div class="b-right" id="right">
+           <div class="r-title">
+             Destiny 2: Beyond Light Deluxe Edition
+           </div>
+           <div class="r-tagscontainer">
+              <div class="r-tag">Looter Shooter</div>
+             <div class="r-tag">Action</div>
+             <div class="r-tag">Adventure</div>
+             <div class="r-tag">FPS</div>
+
+           </div>
+           <div class="r-imagescontainer">
+             <div class="r-image"><img src="img\bl3\1.jpg" alt="" width = 100%></div>
+             <div class="r-image"><img src="img\bl3\2.jpg" alt="" width = 100%></div>
+             <div class="r-image"><img src="img\bl3\3.jpg" alt="" width = 100%></div>
+             <div class="r-image"><img src="img\bl3\4.jpg" alt="" width = 100%></div>
+           </div>
+        </div>
+       </div>
+     </div>
+   </div>
+
+    <div class="footer">
+     <div class="f-wrapper">
+       <hr>
+       <div class="f-top">
+         <div class="f-logoleft"><a href="index.html"><img src="img\Mist-Footer.png" height = 40px alt=""></a></div>
+         <div class="f-center">
+           © 2021 Mist Corporation. All rights reserved. All trademarks are property of their respective owners in the India and other countries.
+            VAT included in all prices where applicable. &nbsp &nbsp
+              <a href="#">Privacy Policy</a>&nbsp | &nbsp
+              <a href="#">Legal</a>&nbsp | &nbsp
+              <a href="#">Refunds</a>&nbsp | &nbsp
+              <a href="#">Cookies</a>
+         </div>
+       </div>
+       <hr>
+       <div class="f-bot">
+         <a href="#">About Mist</a>&nbsp | &nbsp
+         <a href="#">Jobs</a>&nbsp | &nbsp
+         <a href="#">Gift cards</a>&nbsp | &nbsp
+         <a href="#">Facebook</a>&nbsp | &nbsp
+         <a href="#">Twitter</a>&nbsp  &nbsp
+       </div>
+     </div>
+    </div>
+  </body>
+</html>
